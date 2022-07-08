@@ -4,9 +4,13 @@
     font-family: 'Gowun Dodum', sans-serif;
 }
 
+html, body{
+    height: 100%;
+}
+
 main {
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -48,19 +52,18 @@ main {
 .container .item {
     width: 100%;
     height: 100%;
-    justify-content: center;
     cursor: pointer;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .container h3 {
-    height: 504.5px;
+    height: 100%;
     width: 400px;
-    line-height: 450px;
     text-align: center;
     font-size: 25px;
-
+    line-height: 50vh;
 }
 
 .container h3:hover {
